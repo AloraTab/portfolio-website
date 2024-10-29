@@ -1,23 +1,46 @@
+"use client"
 import HoverBlock from "./blocks/HoverBlock";
+import { motion } from "framer-motion";
 
 const MyBlog = () => {
     return (
         <div className="flex-col flex">
-            <HoverBlock
-                outlineColor={"green"}
-                header={"Facial Emotion Recognition through Video"}
-                desc={"Classification of human emotions through video. This project won 2nd place in the FER-May Hackathon submitted by Team FAI.CE."}
-            />
-            <HoverBlock
-                outlineColor={"green"}
-                header={"Keyword Recognition through Voice"}
-                desc={"Audio classification solution for the AAICO Hackathon - the model recognizes a given set of keywords in a spoken audio and identifies where they were spoken. Won 3rd place! Submitted by Team VSTREAM Analysts"}
-            />
-            <HoverBlock
-                outlineColor={"green"}
-                header={"Keyword Recognition through Voice"}
-                desc={"Audio classification solution for the AAICO Hackathon - the model recognizes a given set of keywords in a spoken audio and identifies where they were spoken. Won 3rd place! Submitted by Team VSTREAM Analysts"}
-            />
+            <motion.div
+                whileHover={{
+                    scale: 1.01,
+                    transition: { duration: 0.5 },
+                }}>
+                <HoverBlock
+                    outlineColor={"green"}
+                    header={"Exploring the Fundamentals of LLMs and RAG"}
+                    desc={"A look into the hype around RAG, a small demo of it - and where it could go next?"}
+                />
+            </motion.div>
+
+            <motion.div
+                whileHover={{
+                    scale: 1.01,
+                    transition: { duration: 0.5 },
+                }}>
+                <HoverBlock
+                    outlineColor={"green"}
+                    header={"AI Art - Where Next?"}
+                    desc={"How AI Art works, what this means for artists and an important discussion on ethics."}
+                />
+            </motion.div>
+
+            <motion.div
+                whileHover={{
+                    scale: 1.01,
+                    transition: { duration: 0.5 },
+                }}>
+                <HoverBlock
+                    outlineColor={"green"}
+                    header={"More coming soon!"}
+                    desc={""}
+                />
+            </motion.div>
+
         </div>
     );
 }

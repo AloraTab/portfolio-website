@@ -52,7 +52,7 @@ const LeftNav: React.FC = () => {
                             <span
                                 className={`${
                                     activeSection === item.id ? 'font-bold' : ''
-                                } text-lg`}
+                                } text-base`}
                             >
                                 {item.label}
                             </span>
