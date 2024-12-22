@@ -14,7 +14,8 @@ const MyBlog = () => {
                     outlineColor={"green"}
                     header={"Exploring the Fundamentals of LLMs and RAG"}
                     desc={"A look into the hype around RAG, a small demo of it - and where it could go next?"}
-                />
+                stack={[]}
+               />
             </motion.div>
 
             <motion.div
@@ -26,7 +27,8 @@ const MyBlog = () => {
                     outlineColor={"green"}
                     header={"AI Art - Where Next?"}
                     desc={"How AI Art works, what this means for artists and an important discussion on ethics."}
-                />
+                    stack={[]}
+               />
             </motion.div>
 
             <motion.div
@@ -38,7 +40,8 @@ const MyBlog = () => {
                     outlineColor={"green"}
                     header={"More coming soon!"}
                     desc={""}
-                />
+                    stack={[]}
+             />
             </motion.div>
 
         </div>
