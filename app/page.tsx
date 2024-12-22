@@ -1,10 +1,9 @@
-import Image from "next/image";
+
 import MyProjects from "./components/MyProjects";
 import MyExperience from "./components/MyExperience";
 import MyBlog from "./components/MyBlog";
 import LeftNav from "./components/LeftNav";
 
-import { motion } from "framer-motion";
 import MyProfile from "./components/MyProfile";
 export default function Home() {
 

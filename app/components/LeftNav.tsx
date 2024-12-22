@@ -1,6 +1,5 @@
 "use client"
 import React, { useEffect, useState } from 'react';
-import Link from 'next/link';
 
 type NavItem = {
     id: string;
@@ -46,9 +45,9 @@ const LeftNav: React.FC = () => {
             <h1 className="text-4xl font-bold">Alora Tabuco</h1>
             <p className="text-xl mb-8">AI/ML Software Engineer</p>
             <nav className="flex flex-col space-y-4">
-                {navItems.map((item) => (
+                {navItems.map((item, index) => (
                     // <Link href={`#${item.id}`} key={item.id} scroll={false} className="flex items-center">
-                    <div onClick={() => scrolltoHash(`${item.id}`)} className="flex items-center cursor-pointer">
+                    <div onClick={() => scrolltoHash(`${item.id}`)} key={index} className="flex items-center cursor-pointer">
                         <span
                             className={`${activeSection === item.id ? 'w-12' : 'w-6'
                                 } h-0.5 bg-black transition-all duration-300 mr-2`}
