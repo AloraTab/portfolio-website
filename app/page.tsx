@@ -10,7 +10,7 @@ export default function Home() {
 
 
   return (
-    <div className="flex flex-col items-center justify-items-center min-h-screen p-8 w-full ">
+    <div className="flex flex-col bg-white items-center justify-items-center min-h-screen p-8 w-full ">
       <div className="h-screen">
         <div className="flex flex-row justify-start w-full">
           <svg width="86" height="13" viewBox="0 0 86 13" fill="none" xmlns="http://www.w3.org/2000/svg">
