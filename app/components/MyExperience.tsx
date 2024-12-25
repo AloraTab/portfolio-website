@@ -8,6 +8,7 @@ const MyExperience = () => {
             // whileInView={{ x: 0 }}
             >
             <div className="flex flex-col w-full">
+            <p className="text-6xl lg:hidden block pt-8 pb-4">Experience</p>
                 <ExperienceBlock
                     duration="Nov 2023 - Dec 2024"
                     title="AI/ML Software Engineer ~ DevelopL"

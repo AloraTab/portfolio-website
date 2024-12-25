@@ -5,6 +5,7 @@ const MyProjects = () => {
     return (
 
         <div className="flex-col flex">
+             <p className="text-6xl lg:hidden block pt-8 pb-4">Projects</p>
             <motion.div
                 initial={{ x: 50 }}
                 whileInView={{ x: 0 }}
