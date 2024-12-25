@@ -3,6 +3,8 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 
+
+
 const MyProfile = () => {
     return (
         <motion.div
@@ -19,7 +21,7 @@ const MyProfile = () => {
 
                     <div className="relative w-[203px] h-[200px] md:w-[406px] md:h-[398px] mb-6 md:mb-0 md:mr-8 z-10">
                         <Image
-                            src={&apos;/img/profile.svg&apos;}
+                            src={'/img/profile.svg'}
                             alt="Profile Picture"
                             width={406}
                             height={398}

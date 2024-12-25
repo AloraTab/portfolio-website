@@ -1,7 +1,7 @@
 
 import MyProjects from "./components/MyProjects";
 import MyExperience from "./components/MyExperience";
-import MyBlog from "./components/MyBlog";
+// import MyBlog from "./components/MyBlog";
 import LeftNav from "./components/LeftNav";
 
 import MyProfile from "./components/MyProfile";
