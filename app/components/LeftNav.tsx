@@ -10,7 +10,7 @@ const navItems: NavItem[] = [
     { id: 'about', label: 'About' },
     { id: 'projects', label: 'Projects' },
     { id: 'experience', label: 'Experience' },
-    { id: 'blog', label: 'Blog' },
+    // { id: 'blog', label: 'Blog' },
 ];
 
 const LeftNav: React.FC = () => {
@@ -43,7 +43,8 @@ const LeftNav: React.FC = () => {
     return (
         <div className="flex flex-col sticky top-20 p-6">
             <h1 className="text-4xl font-bold">Alora Tabuco</h1>
-            <p className="text-xl mb-8">AI/ML Software Engineer</p>
+            <p className="text-xl my-2">AI/ML Software Engineer</p>
+            <p className="text-base mb-8">I transform complex AI concepts into practical, user-focused solutions.</p>
             <nav className="flex flex-col space-y-4">
                 {navItems.map((item, index) => (
                     // <Link href={`#${item.id}`} key={item.id} scroll={false} className="flex items-center">

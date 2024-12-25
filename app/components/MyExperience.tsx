@@ -7,7 +7,7 @@ const MyExperience = () => {
             // initial={{ x: 200 }}
             // whileInView={{ x: 0 }}
             >
-            <div className="flex flex-col">
+            <div className="flex flex-col w-full">
                 <ExperienceBlock
                     duration="Nov 2023 - Dec 2024"
                     title="AI/ML Software Engineer ~ DevelopL"
